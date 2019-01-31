@@ -5,12 +5,14 @@
 
 したがって，基本的には松浦先生のルールに則り，実装しています．
 
+各章の番号.ipynb
+
 * jupyter notebook（`X-Y.ipynb`）
 
 ### 各章のディレクトリの構成
 
-* `input`:元々のレポジトリと同様にデータが格納されています.
-* `exercise`:練習問題に対するjupyter notebook.
+* `input`:元々のレポジトリと同様にデータを格納
+* `exercise`:練習問題に対するjupyter notebook
 
 ## Stanとpyroの記述の違い
 
@@ -53,7 +55,7 @@ def model(data):
   - [ ] VI
   - [ ] リファクタリング
 - 8章
-  - [ ] MCMC
+  - [x] MCMC(ただし，確率変数が多すぎて実行不可能)
   - [ ] VI
   - [ ] リファクタリング
 - 10章
